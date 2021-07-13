@@ -48,9 +48,6 @@ const Navigation = () => {
         <Nav>
             <NavList>
                 <li>
-                    <span aria-hidden="true" role="img">
-                    &#57398;
-                    </span>
                     <Link to="/">Home</Link>
                 </li>
                 <li>
@@ -58,6 +55,9 @@ const Navigation = () => {
                 </li>
                 <li>
                     <Link to="/favorites">Favorites</Link>
+                </li>
+                <li>
+                    <Link to="/new">New</Link>
                 </li>
             </NavList>
         </Nav>
